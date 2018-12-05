@@ -51,10 +51,9 @@ a:focus {
 
 ul,
 ol {
-  margin: 0; }
+  margin-left: 50px; }
   ul li,
-  ol li {
-    list-style: none; }
+  ol li { }
 
 img {
   height: auto;
@@ -126,6 +125,10 @@ img {
   height: 800px !important; }
 
 /* :: 3.3.0 Section Padding */
+.section-padding-top-50 {
+  padding-top: 100px; }
+
+
 .section-padding-100 {
   padding-top: 100px;
   padding-bottom: 100px; }
@@ -991,9 +994,9 @@ img {
   position: relative;
   z-index: 1;
   width: 100%;
-  background-color: #262626;
-  padding: 15px 30px 20px;
-  border: 1px solid #363636; }
+ /* background-color: #262626;*/
+  padding: 5px 5px 5px;
+  /*border: 1px solid #363636; */}
   .song-play-area .song-name p {
     color: #b8b8b8;
     margin-bottom: 5px; }
@@ -1673,10 +1676,21 @@ img {
   .single-web-icon:hover {
     box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.15); }
 
-.featured-artist-thumb{
-  margin-left: 10%;
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .featured-artist-thumb{
+  padding-left: 5%;
+}}   
+
+.text-content p{
+  font-size: 23px !important;
 }
 
+.featured-artist-content p{
+  font-size: 19px !important;
+}
+.featured-artist-content ul{
+  color: white !important;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */

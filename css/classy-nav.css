@@ -17,10 +17,9 @@ body {
 
 ul,
 ol {
-  margin: 0; }
+  margin-left: 10px; }
   ul li,
-  ol li {
-    list-style: none; }
+  ol li {}
 
 img {
   height: auto;
