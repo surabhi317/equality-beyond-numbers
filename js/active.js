@@ -215,14 +215,14 @@
     var firstTime = true;
 
     $(".featured-artist-area").on("mouseover", function () {
-        if(firstTime){
-             var nowPlaying = $("#youtube-vid").attr('src');
-       $("#youtube-vid").attr('src',nowPlaying+'?autoplay=1');
-      //  $("#youtube-vid").find('iframe')
-                    // $(this).find('iframe').attr('src',nowPlaying+'&autopla
-        console.log(nowPlaying)
-        firstTime=false;
-        }
+      //   if(firstTime){
+      //        var nowPlaying = $("#youtube-vid").attr('src');
+      //  $("#youtube-vid").attr('src',nowPlaying+'?autoplay=1');
+      // //  $("#youtube-vid").find('iframe')
+      //               // $(this).find('iframe').attr('src',nowPlaying+'&autopla
+      //   console.log(nowPlaying)
+      //   firstTime=false;
+      //   }
       
 
     });
