@@ -1691,6 +1691,14 @@ img {
 .featured-artist-content ul{
   color: white !important;
 }
+
+.contact-area p{
+  color: white !important;
+  font-size: 23px;
+}
+.contact-area h2{
+  color: white !important;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
