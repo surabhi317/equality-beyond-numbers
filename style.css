@@ -128,10 +128,13 @@ img {
 .section-padding-top-50 {
   padding-top: 100px; }
 
+.section-padding-bottom-50 {
+  padding-bottom: 100px; }
+
 
 .section-padding-100 {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .section-padding-100-0 {
   padding-top: 100px;
@@ -1682,6 +1685,7 @@ img {
 }}   
 
 .text-content p{
+  text-indent: 50px;
   font-size: 23px !important;
 }
 
@@ -1694,7 +1698,13 @@ img {
 
 .contact-area p{
   color: white !important;
-  font-size: 23px;
+  font-size: 17px;
+}
+.contact-area a{
+  font-style: italic;
+  font-weight: normal;
+  color: white !important;
+  font-size: 18px;
 }
 .contact-area h2{
   color: white !important;
